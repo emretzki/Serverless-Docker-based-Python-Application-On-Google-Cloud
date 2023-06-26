@@ -1,0 +1,13 @@
+python 3.11
+
+created requirements
+
+created venv
+
+activated venv
+
+upgrade pip
+
+install requirements
+
+pytest src/test.py
