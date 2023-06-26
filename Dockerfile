@@ -8,7 +8,7 @@ FROM python:3.11.4-slim
 COPY . /app
 WORKDIR /app/
 
-# default installs
+# default linux installations
 RUN apt-get update && \   
     apt-get install -y \
     build-essential \
