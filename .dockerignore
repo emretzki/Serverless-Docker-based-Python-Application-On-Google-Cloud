@@ -1,4 +1,8 @@
+
+.git/
 README.md
+Dockerfile
+Dockerfile.empty
 
 .env*
 # Byte-compiled / optimized / DLL files

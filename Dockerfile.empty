@@ -1,0 +1,10 @@
+# which version of python
+
+FROM python:3.11.4-slim
+
+
+COPY . /app
+WORKDIR /app/
+
+#run the app
+CMD ["python", "-m", "http.server"]
